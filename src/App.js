@@ -45,7 +45,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Router>
-        <Navbar />
+        {/* <Navbar /> */}
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/courses" element={<CoursesPage />} />
